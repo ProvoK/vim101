@@ -1,0 +1,39 @@
+
+# Movement
+
+Basic movement with h, j, k, l
+
+	     ^
+	     k		    Hint:  The h key is at the left and moves left.
+       < h	 l >		   The l key is at the right and moves right.
+	     j			   The j key looks like a down arrow.
+	     v
+
+`w` moves to the start of the next `word` (first char excluded)
+`W` moves to the start of the next space-separated `word`
+
+`e` moves to the end of the current `word` (last char included)
+`E` moves to the end of the current space-separated `word`
+
+`b` and `B` moves back to the start of the previous `word`
+
+`G` moves to the last line of file.
+`gg` moves to the first line.
+
+`0` moves to the start of the line
+`$` moves to the end of the line
+
+`{` moves to the previous paragraph
+`}` moves to the next paragraph
+
+
+# Text
+
+Lorem ipsum dolor sit amet, exerci intellegebat te eos, saperet nonumes theophrastus ad nam.
+Mucius inimicus consulatu id per, his ei quis offendit neglegentur.
+Pri no reque discere volutpat, et numquam fierent principes cum, instructior theophrastus sit ne.
+Est eu eros expetenda intellegat, nullam interesset vel et. Eos ea dicam expetendis, no est solet phaedrum.
+
+
+These are words.
+These-too but are_not space-separated.
