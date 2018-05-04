@@ -1,23 +1,4 @@
-
-# Insert commands:
-
-All insert commands will move cursor and then change the current MODE to `insert`
-
-`i` starts insert mode at the current position
-
-`a` starts insert mode moving the cursor to the next char
-`A` starts insert mode moving the cursor to the end of the WORD
-
-`o` starts insert on the next line (it will create a blank line)
-`O` starts insert on the previous line (it will create a blank line)
-
-
-Else if it is not an insert command, it's valuable to introduce `r`:
-
-`r` replaces the char under the cursor. It does not enter `insert` mode
-
-
-# Fix the above sentences
+Fix the above sentences
 
 // Original
 The quick brown fox jumps over the lazy dog.
