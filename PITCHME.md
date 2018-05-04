@@ -24,6 +24,8 @@ One of those are:
 - `:q!` for exiting forcefully
 - `:wq` for saving and exit
 
+---
+
 ## Bare minimal Vim configuration
 
 -> insert here the code of basic .vimrc
