@@ -4,29 +4,81 @@
 
 ## Insertion operators
 
-All insert commands will move cursor and then change the current MODE to `insert`
+All the following commands will both:
 
-`i` starts insert mode at the current position
+@ol
 
-`a` starts insert mode moving the cursor to the next char
-`A` starts insert mode moving the cursor to the end of the WORD
+- move cursor
+- change the current MODE to @color[#f49e42](insert)
 
-`o` starts insert on the next line (it will create a blank line)
-`O` starts insert on the previous line (it will create a blank line)
+@olend
+
++++
+@color[white](@size[2.0em](i and I))
+@ul
+
+- @color[#f49e42](i) starts insert mode at the current position
+- @color[#f49e42](I) starts insert mode at line's start
+
+@ulend
+
++++
+@color[white](@size[2.0em](a and A))
+@ul
+
+- @color[#f49e42](a) starts insert mode at next char
+- @color[#f49e42](A) starts insert mode at line's start
+
+@ulend
+
++++
+@color[white](@size[2.0em](o and O))
+@ul
+
+- @color[#f49e42](o) starts insert mode at the next line
+- @color[#f49e42](O) starts insert mode at the previous line
+- both will create a blank line!
+
+@ulend
 
 +++
 
 ## Yank and paste operators
 
-`y` copies the selection or the text object
-`yy` copies the current line
+This operators are the common CTRL+C and CTRL+V @size[0.4em](Stackoverflow programming style)
 
-`p` and `P` paste, the former after the cursor, the latter before it.
+@ul
+
+- @color[#f49e42](y) copies the selection or the text object
+- @color[#f49e42](yy) copies the current line
+- @color[#f49e42](p) and @color[#f49e42](P) paste, the former after the cursor, the latter before it.
+
+@ulend
 
 +++
 
 ## Delete operators
 
-`x` and `X` deletes a single char
-`d` deletes the selection or the text object
-`dd` deletes the current line
+@ul
+
+- @color[#f49e42](x) and @color[#f49e42](X) deletes a single char
+- @color[#f49e42](d) deletes the selection or the text object
+- @color[#f49e42](dd) deletes the current line
+
+@ulend
+
++++
+
+## HINT
+
+### @color[#f49e42](u) will @color[#f49e42](undo) last change
+<br>
+@size[0.3em](such unexpected)
+
++++
+
+## Let's try!
+<br>
+> vim @color[#f49e42](01_operators.txt)
+<br>
+> spoiler: exit with @color[#f49e42](:q!)

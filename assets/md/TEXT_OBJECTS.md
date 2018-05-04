@@ -1,18 +1,28 @@
 ## Text objects
 
-+++
-
 @ul
-- `_` current line
-- `iw` current word
-- `ip` current paragraph
+- @color[#f49e42](_) current line
+- @color[#f49e42](iw) current word
+- @color[#f49e42](ip) current paragraph
+
+@ulend
 
 +++
 
-There are also more powerful text objects
+### There are also more powerful text objects
 
-- `i"` text between quotes. with `a"` you includes quotes too
+- @color[#f49e42](i") for text between quotes
+- with @color[#f49e42](a") you includes quotes too
 
-but not only quotes!
+<br>
+### This is not limited at quotes!
 
-- `i(`, `a(`, `i[`, `i{`, `i<`
+- @color[#f49e42](i(, a(, i[, i{, i<) works as you expect
+
++++
+
+## Let's try!
+<br>
+> vim @color[#f49e42](01_objects.txt)
+<br>
+> spoiler: exit with @color[#f49e42](:q!)
