@@ -32,4 +32,3 @@ In this mode Vim will behave as a common text editor.
 In this mode you actually make selections, like the ones you do dragging the mouse around.
 
 > Oh gawd. I should have exited by now.
-

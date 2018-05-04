@@ -5,7 +5,9 @@ In this workshop we will explore Vim fundamentals.
 <br>
 At the end of this presentation, you'll exit Vim like a pro!
 
+---
 ---?include=assets/md/MODES.md
+---
 
 ## Composition
 
@@ -17,9 +19,13 @@ We can distinguish between three kind of primitives:
 - Operators
 - Text objects
 
+---
 ---?include=assets/md/MOTIONS.md
+---
 ---?include=assets/md/OPERATORS.md
+---
 ---?include=assets/md/TEXT_OBJECTS.md
+---
 
 ## Save and exit
 
