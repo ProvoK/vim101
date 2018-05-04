@@ -58,6 +58,7 @@ We can distinguish between three kind of primitives:
 
 !img assets/hjkl.png
 
++++
 
 `w` moves to the start of the next `word` (first char excluded)
 `W` moves to the start of the next space-separated `word`
@@ -78,6 +79,10 @@ We can distinguish between three kind of primitives:
 
 ---
 
+## Operators
+
++++
+
 ## Insertion operators
 
 All insert commands will move cursor and then change the current MODE to `insert`
@@ -89,4 +94,68 @@ All insert commands will move cursor and then change the current MODE to `insert
 
 `o` starts insert on the next line (it will create a blank line)
 `O` starts insert on the previous line (it will create a blank line)
+
++++
+
+## Yank and paste operators
+
+`y` copies the selection or the text object
+`yy` copies the current line
+
+`p` and `P` paste, the former after the cursor, the latter before it.
+
++++
+
+## Delete operators
+
+`x` and `X` deletes a single char
+`d` deletes the selection or the text object
+`dd` deletes the current line
+
+---
+
+## Text objects
+
++++
+
+@ul
+- `_` current line
+- `iw` current word
+- `ip` current paragraph
+
++++
+
+There are also more powerful text objects
+
+- `i"` text between quotes. with `a"` you includes quotes too
+
+but not only quotes!
+
+- `i(`, `a(`, `i[`, `i{`, `i<`
+
+---
+
+## Save and exit
+
+Pressing `:` you'll be prompted to write in the lower bar.
+It's used for a really infinite uses.
+
+One of those are:
+@ul
+- `:w` for writing
+- `:q` for exiting
+- `:q!` for exiting forcefully
+- `:wq` for saving and exit
+
+---
+
+## Time for exercises!
+
+Open `playground.txt` with Vim!
+
+---
+
+## Bare minimal Vim configuration
+
+-> insert here the code of basic .vimrc
 
