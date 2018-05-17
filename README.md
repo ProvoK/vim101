@@ -2,4 +2,7 @@
 Simple vim repository for internal workshop
 
 
-presentation WIP: https://gitpitch.com/provok/vim101/master
+# Presentation 
+You can reach the presentation slides at
+https://gitpitch.com/provok/vim101/master
+
