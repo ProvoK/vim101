@@ -1,0 +1,19 @@
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+  background-color: #002b36;
+}
+
+.reveal {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  color: #93A1A1;
+}
+
+.reveal blockquote > p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #C5E2DF;
+}

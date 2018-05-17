@@ -14,3 +14,14 @@ The quic brow fo jumps over the lazy dog
 
 // Hint: r
 The quack blown fux jumps over the lazy dag
+
+
+// Hint: w|e + x|X
+Thee qquick brownn foXx jumps oover the lazy ddog
+
+// Hint: yank and paste!
+quick The jumps fox brown dog. the over lazy
+
+// Hint: deletes puts objects in the "paste registry"
+quick The jumps fox brown dog. the over lazy
+

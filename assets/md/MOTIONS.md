@@ -1,22 +1,53 @@
-## Motions
+# Motions
 
-!img assets/hjkl.png
+![hjkl-movement](assets/images/hjkl.png)
 
 +++
 
-`w` moves to the start of the next `word` (first char excluded)
-`W` moves to the start of the next space-separated `word`
+- @color[#f49e42](w) moves to the start of the next @color[#f49e42](word) (first char excluded)
+- @color[#f49e42](W) moves to the start of the next @color[#f49e42](WORD)
 
-`e` moves to the end of the current `word` (last char included)
-`E` moves to the end of the current space-separated `word`
++++
 
-`b` and `B` moves back to the start of the previous `word`
+@color[white](@size[2.0em](word vs WORD?))
 
-`G` moves to the last line of file.
-`gg` moves to the first line.
+- A @color[#f49e42](WORD) is delimited by whitespace
+- A @color[#f49e42](word) is delimited by non-keyword chars (configurable)
 
-`0` moves to the start of the line
-`$` moves to the end of the line
+```
+these are normal words. This_is too a normal word.
 
-`{` moves to the previous paragraph
-`}` moves to the next paragraph
+this-is-a-WORD and-this-is-another-WORD
+```
+@[1](normal words)
+@[3](blank separated words aka WORDS)
++++
+
+@color[#f49e42](e) and @color[#f49e42](E) move to the end of the current @color[#f49e42](word) or @color[#f49e42](WORD) (last char included)
+
++++
+
+@color[#f49e42](b) and @color[#f49e42](B) move back to the start of the previous @color[#f49e42](word) or @color[#f49e42](WORD)
+
++++
+
+- @color[#f49e42](G) moves to the last line
+- @color[#f49e42](gg) moves to the first line
+
++++
+
+- @color[#f49e42](0) moves to the start of the line
+- @color[#f49e42]($) moves to the end of the line
+
++++
+
+- @color[#f49e42]({) moves to the previous paragraph
+- @color[#f49e42](}) moves to the next paragraph
+
++++
+
+## Let's try!
+<br>
+> vim @color[#f49e42](01_motion.txt)
+<br>
+> spoiler: exit with @color[#f49e42](:q!)
