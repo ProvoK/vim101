@@ -8,7 +8,8 @@ set ruler
 set cursorline
 
 " Basic syntax highlight
-set syntax enable
+syntax enable
+colorscheme torte
 
 " Enable line numbers
 set number
