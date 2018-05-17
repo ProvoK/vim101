@@ -1,0 +1,6 @@
+<html>
+The (quick) fox jumped over the (lazy) dog
+</html>
+
+{ curly [ square ( parentesis ) brackets ] brackets }
+

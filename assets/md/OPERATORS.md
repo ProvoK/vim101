@@ -79,6 +79,6 @@ This operators are the common CTRL+C and CTRL+V @size[0.4em](Stackoverflow progr
 
 ## Let's try!
 <br>
-> vim @color[#f49e42](01_operators.txt)
+> vim @color[#f49e42](02_operators.txt)
 <br>
 > spoiler: exit with @color[#f49e42](:q!)

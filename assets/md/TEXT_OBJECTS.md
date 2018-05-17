@@ -23,6 +23,6 @@
 
 ## Let's try!
 <br>
-> vim @color[#f49e42](01_objects.txt)
+> vim @color[#f49e42](03_objects.txt)
 <br>
 > spoiler: exit with @color[#f49e42](:q!)
