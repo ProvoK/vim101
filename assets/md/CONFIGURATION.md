@@ -17,7 +17,7 @@ which is usually located in your home directory
 @[4-5](show the current position)
 @[7-8](highlight the current line. Useful for not getting lost)
 @[10-11](you can't survive without this)
-@[12](just one of default colorscheme)
+@[12](just one of pre-installed colorschemes)
 @[14-15](line numbers, again super duper necessary)
 
 +++

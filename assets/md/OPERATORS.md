@@ -61,7 +61,7 @@ This operators are the common CTRL+C and CTRL+V @size[0.4em](Stackoverflow progr
 
 @ul
 
-- @color[#f49e42](x) and @color[#f49e42](X) deletes a single char
+- @color[#f49e42](x) and @color[#f49e42](X) delete a single char
 - @color[#f49e42](d) deletes the selection or the text object
 - @color[#f49e42](dd) deletes the current line
 

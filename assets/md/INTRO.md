@@ -2,7 +2,7 @@
 <br>
 ## Welcome!
 <br>
-### In this workshop we will explore Vim fundamentals.
+### In this workshop we will explore Vim fundamentals
 <br>
 #### You will exit Vim like a pro!
 
