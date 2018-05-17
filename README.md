@@ -1,5 +1,5 @@
 # vim101
-Simple vim repository for internal workshop
+Repository for internal vim workshop
 
 
 # Presentation 
