@@ -17,7 +17,10 @@ The quack blown fux jumps over the lazy dag
 
 
 // Hint: w|e + x|X
-Thee qquick brownn foXx jumps oover the lazy ddog
+Thee qquick brownn foXx jumps oover the lazy doggo
+
+// Hint: change operator
+The quick blue fox jumps over the lazy pig.
 
 // Hint: yank and paste!
 quick The jumps fox brown dog. the over lazy

@@ -69,6 +69,13 @@ This operators are the common CTRL+C and CTRL+V @size[0.4em](Stackoverflow progr
 
 +++
 
+## Change operator
+
+- @color[#f49e42](c) for change. It's like @color[#f49e42](delete) + @color[#f49e42](i)
+- It's very useful, as we'll see when introducing text objects
+
++++
+
 ## HINT
 
 ### @color[#f49e42](u) will @color[#f49e42](undo) last change
