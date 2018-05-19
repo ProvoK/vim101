@@ -27,7 +27,7 @@ All the following commands will both:
 @ul
 
 - @color[#f49e42](a) starts insert mode at next char
-- @color[#f49e42](A) starts insert mode at line's start
+- @color[#f49e42](A) starts insert mode at line's end
 
 @ulend
 
